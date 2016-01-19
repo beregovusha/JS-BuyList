@@ -1,3 +1,111 @@
-h1 {
-    color: red;
+*{
+    border-radius: 5px;
+    font-size:18px;
+    font-family: "Berlin Sans FB";
 }
+.column1{
+    background-color: white;
+    box-shadow: 0 0 3px #cfcfcf;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+}
+.column2{
+    background-color: white;
+    box-shadow: 0 0 3px #cfcfcf;
+    padding-top: 10px;
+    margin-top: 100px;
+    margin-right: 120px;
+    float: right;
+}
+.button1{
+    width: 20%;
+    height: 37px;
+    background-color: #5580ff;
+    font-family:Arial;
+    color: white;
+}
+.button2{
+    width: 40px;
+    border-radius: 100%;
+    padding: 10%;
+    text-align:center;
+    border:10px;
+    color:white;
+}
+.button3{
+    padding:5px;
+    background-color: rgba(226, 216, 208, 0.34);
+    box-shadow: 0 0 3px #e6edf4;
+}
+.button4{
+    width: 35px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    margin:2px;
+    margin-right: 10px;
+}
+.button5{
+    width: 30px;
+    border-radius: 100%;
+    background-color: #f4ba20;
+    color: black;
+
+}
+.inputProducts{
+    margin-left: 10px;
+    background-color: white;
+    color:gainsboro;
+    float: left;
+    width: 75%;
+    height: 30px;
+}
+.products{
+    border: none;
+    margin: 10px;
+    background-color: transparent;
+    font-size: medium;
+}
+.productsB{
+    border: none;
+    margin: 10px;
+    text-decoration: line-through;
+    background-color: transparent;
+    font-size: medium;
+}
+.counter{
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align:center;
+}
+.line{
+    display:inline-block;
+    background-color: white;
+    margin-right:100px;
+    margin-left:150px;
+}
+.select{
+    font-size:18px;
+    border: none;
+    width: 60px;
+    height: 10px;
+    padding:8px;
+    margin: 5px;
+}
+.dlines{
+  margin-top:10px;
+  margin-bottom: 10px;
+    border-bottom: groove;
+    border-bottom-width: thin;
+border-bottom-color: #dfdfdf;
+}
+.stext{
+    margin-left: 10px;
+    background-color: white;
+    font-size:24px;
+    font-weight: bold;
+ }
