@@ -8,46 +8,71 @@
 <body style = "background-color: rgba(226, 216, 208, 0.34)";>
 <div class= "column1">
 <textarea class = "inputProducts">Назва товару</textarea>
-    <button type ="button" class = "button1">Додати</button>
+    <button type ="button" id="add" class = "addingButton">Додати</button>
 <div class="dlines"></div>
-  <input type = "inputProducts" value = "Помідори"  class ="productsB">
-  <div class = "line">
-  <button class = "button2" type = "button" style="background-color: rgba(254, 254, 254, 0.72);"> - </button>
-  <span class="counter" style="background-color: rgba(226, 216, 208, 0.34)">2</span>
-  <button class="button2" type = "button" style="background-color:#fefefe;"> + </button>
-</div>
-    <button class = "button3" type="button"> Не куплено</button>
-<div class="dlines"></div>
-    <input type = "inputProducts" value = "Печиво" class ="products">
-    <div class = "line">
-    <button class = "button2" type = "button" style="background-color: rgba(255, 30, 55, 0.91);"> - </button>
-    <span class="counter" style="background-color: rgba(226, 216, 208, 0.34)" >2</span>
-    <button class="button2" type = "button" style="background-color:#228b22;"> + </button>
-    </div>
-    <button class = "button3" type="button">Куплено</button>
-    <button class="button4" type = "button" style="background-color: #ff0000;"> X </button>
-    <div class="dlines"></div>
-    <input type = "inputProducts" value = "Сир" class ="products">
-    <div class = "line">
-    <button class = "button2" type = "button" style="background-color: rgba(255, 30, 55, 0.72);"> - </button>
-    <span class="counter" style="background-color: rgba(226, 216, 208, 0.34)">1</span>
-    <button class="button2" type = "button" style="background-color:#228b22;"> + </button>
-    </div>
-    <button class = "button3" type="button">Куплено</button>
-    <button class="button4" type = "button" style="background-color: #ff0000;"> X </button>
-<div class="dlines"></div>
-    </div>
 
+    <div class = "one_item">
+    <div class="title">
+  <input type = "inputProducts" value = "Помідори"  class ="products">
+  <div class = "line">
+  <button class = "minus button" type = "button"> - </button>
+  <span class="counter" >1</span>
+  <button class="plus button" type = "button" > + </button>
+</div>
+    <button class = "bought" type="button"> Куплено</button>
+    <button class="cancel button" type = "button" > X </button>
+    </div>
+</div>
+
+    <div class="dlines"></div>
+
+    <div class="one_item">
+    <div class="title">
+    <input type = "inputProducts" value = "Печиво" class ="products">
+        <div class = "line">
+        <button class = "minus button" type = "button" > - </button>
+        <span class="counter" >1</span>
+        <button class="plus button" type = "button" > + </button>
+        </div>
+    <button class = "bought" type="button">Куплено</button>
+    <button class="cancel" type = "button" > X </button>
+    </div>
+</div>
+
+    <div class="dlines"></div>
+
+    <div class = "one_item">
+    <div class = "title">
+    <input type = "inputProducts" value = "Сир" class ="products">
+        <div class = "line">
+        <button class = "minus button" type = "button"> - </button>
+        <span class="counter">1</span>
+        <button class="plus button" type = "button" > + </button>
+        </div>
+    <button class = "bought" type="button">Куплено</button>
+    <button class="cancel" type = "button" > X </button>
+    </div>
+<div class="dlines"></div>
+    </div>
+</div>
 
 <div class="column2"><span class="stext">Залишилося</span><div class="line"></div>
     <div class="dlines"></div>
-
-<span class="select" style="background-color: rgba(226, 216, 208, 0.34)">Печиво<button class="button5" type="button">2</button> </span>
-<span class="select" style="background-color: rgba(226, 216, 208, 0.34)">Сир<button class="button5" type="button">1</button> </span>
-
+    <div class="leftS">
+        <span class="one_article">
+        <span class="select">Помідори <span class="number">1</span> </span></span>
+        <span class="one_article">
+        <span class="select">Печиво <span class="number">1</span> </span></span>
+         <span class="one_article">
+        <span class="select">Сир <span class="number">1</span> </span></span>
+    </div>
     <div class="dlines"></div>
-    <div class = "column2"></div><span class="stext">Куплено</span><div class="dlines"</div></div>
-<span class="select" style="background-color: rgba(226, 216, 208, 0.34)"><strike>Помідори</strike><button class="button5" type="button">2</button> </span>
+    <div class = "column2"></div><span class="stext">Куплено</span><div class="dlines"></div></div>
+<div class="boughtStat"></div>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 
 </body>
 </html>
